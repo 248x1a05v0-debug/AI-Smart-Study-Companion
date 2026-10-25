@@ -44,7 +44,7 @@ st.title("🧠 AI Multi-Format Smart Study Companion Shield Pro")
 st.markdown("Convert complex academic notes or heavy documents into instant custom quizzes, export automated sheets, and track full analytics dashboard history.")
 
 st.sidebar.header("👤 Account Status Management")
-st.sidebar.write("**User Profile:** Praneeth Kumar")
+st.sidebar.write("**User Profile:** /******/")
 st.sidebar.write("**Auth Provider:** Google Account Linked 🟢")
 
 # --- INTEGRATED AI BILLING PREMIUM SYSTEM OPTIONS ---
@@ -256,7 +256,7 @@ with main_tab2:
             st.session_state.triggered = False
             st.session_state.notification_warnings = 0
 with main_tab3:
-    st.header("👤 Account Portal Dashboard: Praneeth Kumar")
+    st.header("👤 Account Portal Dashboard: /*******/")
     st.markdown(f"**Current Active Plan Platform Matrix:** {ai_access_status}")
     p_col1, p_col2 = st.columns(2)
     
